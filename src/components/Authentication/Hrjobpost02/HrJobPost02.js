@@ -17,7 +17,7 @@ function HrJobPost02() {
   return (
     <div className="min-h-screen bg-gray-100">
       <nav className="flex justify-between items-center p-4 bg-white shadow-md">
-        <Image src={logo} alt="Hiring Tech" className="h-10" />
+        <Image src={logo} alt="Hiring Tech" width={100} height={40} className="h-10" />
         <div className="flex items-center">
           <button className="relative mr-4">
             <span className="absolute -top-1 -right-1 w-4 h-4 bg-red-500 text-white text-xs rounded-full flex items-center justify-center">3</span>
@@ -26,7 +26,7 @@ function HrJobPost02() {
             </svg>
           </button>
           <div className="flex items-center">
-            <Image src="https://via.placeholder.com/30" alt="User" className="w-8 h-8 rounded-full mr-2" />
+            <Image src="https://via.placeholder.com/30" alt="User" width={30} height={30} className="w-8 h-8 rounded-full mr-2" />
             <span>Shruti Dixit</span>
           </div>
         </div>
@@ -35,7 +35,7 @@ function HrJobPost02() {
         <div className="w-full lg:w-1/2 mb-10 lg:mb-0">
           <h1 className="text-xl text-gray-900 mb-4">CREATE JOB POST</h1>
           <h3 className="text-xl font-bold text-gray-700 mb-8">Add Pay And Benefits</h3>
-          <Image src={hrpost02} alt="HR Post 02" className="w-full h-auto" />
+          <Image src={hrpost02} alt="HR Post 02" width={500} height={300} className="w-full h-auto" />
         </div>
         <div className="w-full lg:w-1/3 bg-white p-8 shadow-md rounded-md">
           <form>

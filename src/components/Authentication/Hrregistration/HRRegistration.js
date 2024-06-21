@@ -114,7 +114,7 @@ function HRRegistration() {
           <button className="w-full p-2 mt-4 bg-orange-500 text-white rounded" onClick={handleClick}>Sign Up</button>
           <button className="w-full p-2 mt-4 bg-red-500 text-white rounded">Continue with Google</button>
           <p className="text-center mt-4">
-            Already have an account? <Link to="/login" className="text-blue-600 hover:underline">Login</Link>
+            Already have an account? <Link href="/login" className="text-blue-600 hover:underline">Login</Link>
           </p>
         </div>
       </div>

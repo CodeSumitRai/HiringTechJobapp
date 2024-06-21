@@ -24,7 +24,7 @@ function HrLogin() {
   return (
     <div className="bg-cover relative min-h-screen" style={{ backgroundImage: `url(${background})` }}>
       <nav className="flex justify-between items-center p-4 bg-white shadow-md">
-        <Image src={logo} alt="Hiring Tech" className="h-10" />
+        <Image src={logo} alt="Hiring Tech" width={100} height={40} className="h-10" />
         <a href="#contact" className="text-lg text-gray-700 hover:underline">Contact</a>
       </nav>
       <div className="flex flex-col lg:flex-row items-start justify-between h-auto px-8 py-16">
@@ -36,21 +36,21 @@ function HrLogin() {
           </h1>
           <div className="flex flex-col gap-y-4">
             <div className="flex items-center h-20 lg:h-24">
-              <Image src={openings} alt="Job Openings" className="w-20 lg:w-24" />
+              <Image src={openings} alt="Job Openings" width={80} height={80} className="w-20 lg:w-24" />
               <div className="ml-2">
                 <h2 className="text-xl lg:text-2xl font-bold">25K+</h2>
                 <p>Job Openings</p>
               </div>
             </div>
             <div className="flex flex-row-reverse items-center h-20 lg:h-24">
-              <Image src={hired} alt="Talents Hired" className="w-20 lg:w-24" />
+              <Image src={hired} alt="Talents Hired" width={80} height={80} className="w-20 lg:w-24" />
               <div className="mr-2">
                 <h2 className="text-xl lg:text-2xl font-bold">10K+</h2>
                 <p>Talents Got Hired</p>
               </div>
             </div>
             <div className="flex items-center h-20 lg:h-24">
-              <Image src={companies} alt="Companies" className="w-20 lg:w-24"/>
+              <Image src={companies} alt="Companies" width={80} height={80} className="w-20 lg:w-24"/>
               <div className="ml-2">
                 <h2 className="text-xl lg:text-2xl font-bold text-[#175574]">500+</h2>
                 <p>Companies</p>
@@ -75,7 +75,7 @@ function HrLogin() {
           <button className="w-full p-2 mt-4 bg-orange-500 text-white rounded" onClick={handleClick}>Login</button>
           <button className="w-full p-2 mt-4 bg-red-500 text-white rounded">Continue with Google</button>
           <p className="text-center mt-4">
-            Don&apos;t have an account? <Link to="/candidate-registration" className="text-blue-600 hover:underline">Sign Up</Link>
+            Don&apos;t have an account? <Link href="/candidate-registration" className="text-blue-600 hover:underline">Sign Up</Link>
           </p>
         </div>
       </div>
