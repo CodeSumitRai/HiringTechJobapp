@@ -51,7 +51,7 @@ const Dashboard = () => {
             <div>
               <p className="text-gray-600 mb-2">Wednesday, 5 June 2024</p>
               <h1 className="text-2xl font-bold mb-2">Welcome back, Aman!</h1>
-              <p className="text-gray-700">Ready to Land Your Dream Career? Let's Help!</p>
+              <p className="text-gray-700">Ready to Land Your Dream Career? Let&apos;s Help!</p>
             </div>
             <Image src={welcomebanner} alt="Welcome Banner" width={200} height={200} />
           </div>
